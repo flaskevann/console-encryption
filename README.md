@@ -98,7 +98,7 @@ Console Encryption generates keys, encrypts and decrypts text.
 AES uses:
 ==============================================================================
 'ce.exe AES 128' generates a 128 key and 128 IV for you.
-'cen.exe AES 192' generates a 192 key and 128 IV for you.
+'ce.exe AES 192' generates a 192 key and 128 IV for you.
 'ce.exe AES 256' generates a 256 key and 128 IV for you.
 'ce.exe AES encrypt "your text" key iv' encrypts text for you.
 'ce.exe AES decrypt cipher key iv' decrypts cipher for you.

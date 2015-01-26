@@ -84,8 +84,8 @@ Input:
 > ce.exe test
 
 Output:
-3x AES encryption and decryption tests>
-2x RSA encryption and decryption tests>
+3x AES encryption and decryption tests
+2x RSA encryption and decryption tests
 </pre>
 
 ### Help

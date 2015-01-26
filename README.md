@@ -1,5 +1,7 @@
 # console-encryption
-Easy to use AES and RSA encryption accessible from the command console. Only needs .NET or [Mono](http://www.mono-project.com/) to work. Each printed result is easy to parse. This makes <code>console-encryption</code> available for a lot of different purposes.
+Easy to use AES and RSA encryption accessible from the command console. Only needs .NET or [Mono](http://www.mono-project.com/) to work.
+
+Each printed result is easy to parse. This makes <code>console-encryption</code> available for a lot of different purposes.
 
 Every printed non-plain text is base64 encoded for easy storage and network transfers.
 

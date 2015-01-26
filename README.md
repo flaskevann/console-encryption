@@ -93,8 +93,7 @@ Output:
 Run <code>> Encryption.exe</code> with no input:
 
 <pre>
-Encryption.exe can generate keys and IV's for you, encrypt and decrypt text.
-All human readable text must be UTF-8. All keys and ciphers are always base64.
+Console Encryption can generate keys, encrypt and decrypt text.
 
 AES uses:
 ==============================================================================

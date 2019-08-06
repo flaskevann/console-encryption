@@ -35,7 +35,7 @@ namespace ConsoleEncryption {
         {
             using (Rijndael myAes = Rijndael.Create())
             {
-				myAes.KeySize = length;
+		myAes.KeySize = length;
 
                 myAes.GenerateKey();
                 myAes.GenerateIV();

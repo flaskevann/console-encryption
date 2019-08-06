@@ -161,7 +161,7 @@ namespace ConsoleEncryption {
              *  TEST AES:
              */
 
-             string aesText = "AES encrypted text, øæå!";
+            string aesText = "AES encrypted text, øæå!";
 
             int[] aesLengths = new int[3] {128, 192, 256};
             for (int i = 0; i < aesLengths.Length; i++) {

@@ -14,7 +14,6 @@ namespace ConsoleEncryption {
 
             switch (args.Length)
             {
-
                 // Test command
                 case 1:
                     if (args[0] == "test")
@@ -32,7 +31,6 @@ namespace ConsoleEncryption {
 
                     switch (args[0])
                     {
-
                         case "AES":
 
                             string[] newKeyAndIV = null;
@@ -53,7 +51,6 @@ namespace ConsoleEncryption {
 
                             break;
 
-
                         default:
                             invalidInput = true;
                             break;
@@ -62,11 +59,11 @@ namespace ConsoleEncryption {
 
                 // RSA encryption or decryption
                 case 4:
+                    
                     if (args[0] == "RSA")
                     {
                         switch (args[1])
                         {
-
                             case "encrypt":
                                 string cipher = Encryption.RsaEncrypt(args[2], args[3]);
                                 Console.WriteLine(cipher);
@@ -90,12 +87,11 @@ namespace ConsoleEncryption {
 
                 // AES encryption or decryption
                 case 5:
+                    
                     if (args[0] == "AES")
                     {
-
                         switch (args[1])
                         {
-
                             case "encrypt":
                                 string cipher = Encryption.AesEncrypt(args[2], args[3], args[4]);
                                 Console.WriteLine(cipher);
@@ -152,7 +148,6 @@ namespace ConsoleEncryption {
         // Encryption tests with result printed to console
         public static void Tests()
         {
-
             Console.WriteLine("");
             Console.WriteLine("Encryption.exe tests:");
             Console.WriteLine("==============================================================================");
@@ -181,10 +176,10 @@ namespace ConsoleEncryption {
                 Console.WriteLine("Decrypted: " + aesDecrypted);
             }
 
-
             /*
              *  TEST RSA:
              */
+            
             string rsaText = "RSA encrypted text, øæå!";
 
             int[] rsaLengths = new int[2] {1024, 2048};

@@ -5,6 +5,8 @@ Each printed result is easy to parse. This makes <code>console-encryption</code>
 
 Every printed non-plain text is base64 encoded for easy storage and network transfers.
 
+UPDATED 2020-09-06: This library has a few problems and is outdated - you should really use AES GCM today.
+
 ## AES
 
 ##### Generate new key and IV:
